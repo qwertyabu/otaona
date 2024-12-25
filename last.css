@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-image: url(img/Снимок\ экрана\ \(47\).png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.drop{
+    width: 1180px;
+    height: 391px;
+    background-color: #ffffff;
+    justify-content: center;
+    text-align: center;
+    border: solid 2px grey;
+    border-radius: 20px;
+    margin-left: 150px;
+    box-shadow: 1px 1px 10px 0px black;
+
+}
+.two input{
+    width: 361px;
+    height: 50px;
+    border: solid 1px grey;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+.one{
+    gap: 100px;
+}
+.one input{
+    width: 748px;
+    height: 80px;
+    border: solid 1px grey;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.btn{
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    color: white;
+    padding: 20px 50px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.btn a{
+    color: white;
+    font-size: 18px;
+}
